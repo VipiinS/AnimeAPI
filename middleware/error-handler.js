@@ -1,4 +1,4 @@
-const errorHandlerMiddleware = async(req,res,next)=>{
+const errorHandlerMiddleware = async(err,req,res,next)=>{
     console.log(err);
     return res.statuc(500).json({message:"something went wrong"})
 }
