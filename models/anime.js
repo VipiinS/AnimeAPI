@@ -7,6 +7,7 @@ const animeSchema = new mongoose.Schema({
     ranking:{
         type:Number
     },
+    genres:[String],
     episodes:{
         type:Number
     },

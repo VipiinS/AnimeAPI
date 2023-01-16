@@ -19,7 +19,7 @@ app.get('/',(req,res)=>{
     res.send('<h1>HELLO</h1><a href="/api/animes">Anime</a>')
 })
 
-app.use('/api/animes',animeRouter);
+app.use('/api/anime',animeRouter);
 
 //error routes
 // app.use(errorHandlerMiddleware)
